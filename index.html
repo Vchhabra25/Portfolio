@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Progressive Learning Guide</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">Vanshika Chhabra</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1 class="animate-fadeInUp">Welcome to My Portfolio</h1>
+            <p class="animate-slideInLeft">I'm a passionate web developer creating amazing digital experiences</p>
+            <a href="#services" class="btn animate-pulse">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="section-title scroll-reveal">About Me</h2>
+        <div class="about-content scroll-reveal">
+            <p>Hello! I’m Vanshika Chhabra, a passionate web developer and technology enthusiast. With a keen eye for design and a love for clean, efficient code, I build user-centric digital experiences that blend creativity and functionality.</p>
+            <p>I enjoy turning complex problems into simple, beautiful solutions. Whether it’s crafting responsive websites, designing intuitive UI/UX, or exploring new technologies, I’m always eager to learn and grow.</p>
+            <p>When I'm not coding, you'll find me exploring dance, writing, or contributing to tech communities and college societies. Let's create something amazing together!</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Services Section (Flexbox Demo) 
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">My Services</h2>
+            <div class="services-flex">
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive, modern websites using the latest technologies and best practices.</p>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing beautiful, user-friendly interfaces that provide great user experiences.</p>
+                </div>
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile Apps</h3>
+                    <p>Building cross-platform mobile applications for iOS and Android devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- Portfolio Section (Grid Demo) -->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="section-title scroll-reveal">My Portfolio</h2>
+        <div class="portfolio-grid">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item scroll-reveal">
+                <a href="https://www.figma.com/proto/7vnLghh5pJpcKGcPxtBKva/Untiled?node-id=15-2&p=f&m=draw&scaling=scale-down&content-scaling=fixed&page-id=15%3A2&starting-point-node-id=39%3A35" target="_blank">
+                    <img src="C:\Users\Drishti\Pictures\Screenshots\Screenshot 2025-06-24 212508.png" alt="Figma Prototype – HerSafar">
+                    <div class="portfolio-content">
+                        <h3>Figma Prototype – HerSafar</h3>
+                        <p>An interactive design prototype created in Figma for women pooling.</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item scroll-reveal">
+                <a href="https://www.figma.com/proto/pdZHCDpK6RWvAlixfweO1O/Smart-Tap?node-id=80-261&p=f&t=xp5wAH6P0h89jgxj-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A261&show-proto-sidebar=1" target="_blank">
+                    <img src="C:\Users\Drishti\Pictures\Screenshots\Screenshot 2025-06-24 213634.png" alt="Figma Prototype – AmritBoond">
+                    <div class="portfolio-content">
+                        <h3>Figma Prototype – AmritBoond</h3>
+                        <p>An interactive prototype for water conservation.</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-item scroll-reveal">
+                <a href="https://www.canva.com/design/DAGlvlWCf20/smcEhTOhWowIXukmWfYZuQ/edit" target="_blank">
+                    <img src="C:\Users\Drishti\Pictures\Screenshots\Screenshot 2025-06-24 214442.png" alt="NGO Visit">
+                    <div class="portfolio-content">
+                        <h3>Just about our visit with NGO children!</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Gallery Section (Advanced Grid)
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Photo Gallery</h2>
+            <div class="photo-grid">
+                <div class="photo large">Featured</div>
+                <div class="photo">Photo 1</div>
+                <div class="photo">Photo 2</div>
+                <div class="photo tall">Photo 3</div>
+                <div class="photo">Photo 4</div>
+                <div class="photo wide">Photo 5</div>
+                <div class="photo">Photo 6</div>
+                <div class="photo">Photo 7</div>
+            </div>
+        </div>
+    </section>
+ Testimonials Section
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Clients Say</h2>
+            <div class="testimonial scroll-reveal">
+                <p>"Amazing work! The website exceeded all my expectations. Highly professional and creative."</p>
+                <strong>- Sarah Johnson</strong>
+            </div>
+            <div class="testimonial scroll-reveal">
+                <p>"Fantastic developer with great attention to detail. Will definitely work together again."</p>
+                <strong>- Mike Chen</strong>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <h3>Let's Work Together</h3>
+            <p>Ready to start your next project? Get in touch!</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="floating">📧</a>
+                <a href="https://www.instagram.com/vanshikaa.chhabra/" class="floating">🐦</a>
+                <a href="https://github.com/dashboard" class="floating">💼</a>
+            </div>
+            <p style="margin-top: 2rem; opacity: 0.7;">&copy; 2025 Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Scroll Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.scroll-reveal').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                // Close mobile menu if open
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
